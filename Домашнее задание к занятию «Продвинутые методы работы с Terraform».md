@@ -59,8 +59,9 @@ output "dev_subnet_id" {
 }
 ```
 5. Предоставляю скриншот содержимого модуля:
+
 ![screenshot](/screenshots/2-5.png)
-6. Сгенерировал документацию к модулю с помощью terraform-docs [ТЫК](/vpc/vpc-doc.md)
+7. Сгенерировал документацию к модулю с помощью terraform-docs [ТЫК](/vpc/vpc-doc.md)
 
 ## Задание 3
 
@@ -72,6 +73,8 @@ output "dev_subnet_id" {
 ![screenshot](/screenshots/state-rm-vm.png)
 4. Импортирую всё обратно:
 ![screenshot](/screenshots/vm.png)
+
+
 ![screenshot](/screenshots/subnet.png)
 Изменений нет
 
