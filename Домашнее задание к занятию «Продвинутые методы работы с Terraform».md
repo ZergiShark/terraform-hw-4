@@ -75,8 +75,10 @@ output "dev_subnet_id" {
 2. Полностью удаляю из стейта модуль vpc:
 ![screenshot](/screenshots/state-rm.png)
 3. Полностью удалил из стейта модуль vm:
+
+
 ![screenshot](/screenshots/state-rm-vm.png)
-4. Импортирую всё обратно:
+5. Импортирую всё обратно:
 
 
 ![screenshot](/screenshots/vm.png)
