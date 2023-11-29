@@ -28,6 +28,7 @@ packages:
 2. Передаю в модуль переменные с названием сети, zone и v4_cidr_blocks:
 ![screenshot](/screenshots/2-1.png)
 3. Модуль возвращает в root module с помощью output информацию о yandex_vpc_subnet. Cкриншот информации из terraform console о моём модуле:
+
 ![screenshot](/screenshots/2-4.png)
 
 4. Заменяю ресурсы yandex_vpc_network и yandex_vpc_subnet созданным модулем:
