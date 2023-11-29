@@ -86,6 +86,8 @@ output "dev_subnet_id" {
 
 
 ![screenshot](/screenshots/state-rm-vm.png)
+
+
 5. Импортирую всё обратно:
 
 
