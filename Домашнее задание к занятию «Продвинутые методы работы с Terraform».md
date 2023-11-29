@@ -5,6 +5,8 @@
 ![screenshot](/screenshots/1-2.png)
 В файле cloud-init.yml использую переменную для ssh-ключа вместо хардкода:
 ![screenshot](/screenshots/2-12.png)
+
+
  Передаю ssh-ключ в функцию template_file в блоке vars={}, так как переменная является списком использую значение индекса 0 - первый элемент списка:
  
 ![screenshot](/screenshots/2-13.png)
