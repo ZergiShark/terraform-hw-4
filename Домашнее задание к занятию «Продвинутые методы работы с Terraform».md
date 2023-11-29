@@ -11,6 +11,8 @@
  
 ![screenshot](/screenshots/2-13.png)
 ![screenshot](/screenshots/2-14.png)
+
+
 3. Для добавления в файл cloud-init.yml установки nginx, необходимо добавить в packages:
 ```
 ...
@@ -75,6 +77,8 @@ output "dev_subnet_id" {
 3. Полностью удалил из стейта модуль vm:
 ![screenshot](/screenshots/state-rm-vm.png)
 4. Импортирую всё обратно:
+
+
 ![screenshot](/screenshots/vm.png)
 
 
